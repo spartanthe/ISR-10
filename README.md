@@ -34,7 +34,7 @@ DO WRITE IN RESOURCE
 DO WRITE IN HTTP VERSION IF YOU THINK I CARE
   << HTTP/1.1
 DO WRITE IN ARGUMENT
-  << x=1
+  << x=1 #TODO: Oh, no that's insane! Need to come up with something else.
 DO WRITE IN ARGUMENT
   << y=2
 DO WRITE IN ARGUMENT
@@ -54,3 +54,7 @@ ANOTHER JOB WELL DONE, DON'T FORGET TO CHECK CONTENT LENGTH
 ###Etiquette for communication between servlet and container
 
 (Usage of PLEASE)
+
+###Rules for servlet container for hosting classic INTERCAL applications
+
+(Rules how SC should deal with a standard INTERCAL application that was not designed with Web 2.0 in mind)
